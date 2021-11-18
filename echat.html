@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>echat</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/9d01290bee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <div>
+                <img src="C:\Users\teja\Downloads\socialbook_img\echat-logo.png" class="logo">
+            </div>
+            <div class="notifications">
+                <img src="C:\Users\teja\Downloads\socialbook_img\notification.png">
+            </div>
+            
+             <div class="inbox"  onclick="InboxMenuToggle()">
+                 
+                    <img src="C:\Users\teja\Downloads\socialbook_img\inbox.png">
+                 
+                </div>
+
+       </div>
+       <div class="inbox-menu">
+           <div class="inbox">
+               <div class="item1">
+                   <b>Chatbox</b>
+               </div>
+           </div>
+           <div class="user-profile1">
+            <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+             <div>
+               <p>Kishore Varma</p>
+             </div>               
+        </div>
+        <div class="user-profile2">
+            <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+             <div>
+               <p>Ramesh tamisri</p>
+             </div>               
+        </div>
+        <div class="user-profile3">
+            <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+             <div>
+               <p>Uday Bhaskar</p>
+             </div>               
+        </div>
+        <div class="user-profile4">
+            <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+             <div>
+               <p>Vinay Kumar</p>
+             </div>               
+        </div>
+       </div>
+      
+         
+    <!---------nav - right------------->
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="C:\Users\teja\Downloads\socialbook_img\search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-usericon online" onclick="SettingsMenuToggle()">
+                <img src="C:\Users\teja\Downloads\socialbook_img\profile1 min.png">
+            </div>
+        </div>
+        <!--------Settings Menu---------->
+        <div class="settings-menu">
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+                     <div>
+                       <p>Teja Gopalapurapu</p>
+                     </div>               
+                </div>
+                <div class="member">
+                    <p>Echat-Member</p>
+                 </div>
+                
+                <hr>
+                
+                <div class="settings-links">
+                    <p><i class="far fa-edit"></i>Edit Details</p>
+                   
+                </div>
+                <hr>
+                
+                <div class="settings-links">
+                    <p><i class="far fa-edit"></i>Change Password</p>
+                   
+                </div>
+
+                <hr>
+                <div class="settings-links">
+                    <img src="C:\Users\teja\Downloads\socialbook_img\logout.png"> 
+                    <a href="#">Logout </a>
+                </div>
+
+                <hr>
+            </div>
+           
+        </div>
+    </nav>
+    <div class="container">
+        <!------------left-sidebar------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img\news.png">Latest News</a>
+                <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img\friends.png">Friends</a>
+                <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img\Group.png">Group</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img/shortcut-1.png">Web Designers</a>
+                <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img/shortcut-1.png">Full stack Developers</a>
+                <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img/shortcut-1.png">Website experts</a>
+            </div>
+        
+        </div>
+        <!------------middlebar---------------->
+        <div class="middle-bar">
+            <div class="write-post-container">
+               <div class="user-profile">
+                  <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+                  <div>
+                      <p>Teja Gopalapurapu</p>
+                    
+                  </div>
+              </div>
+              <div class="post-input-container">
+                  <textarea rows="3" placeholder="What's on your mind"></textarea>
+              </div>
+              <div class="add-post-links">
+                  <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img\photo.png">Photo</a>
+                  <a href="#"><img src="C:\Users\teja\Downloads\socialbook_img\feeling.png">Feeling</a>
+               </div>
+          </div>
+         
+        
+        <div class="post-container">
+         <div class="post-row">
+            <div class="user-profile">
+                <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+                 <div>
+                   <p>Teja Gopalapurapu</p>
+                   <span>Nov 16 2021, 12:50pm</span>
+                 
+
+                 </div>
+            </div>
+            <a herf="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div><br>
+           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+           <img src="C:\Users\teja\Downloads\socialbook_img\feed-image-2.png" class="post-image">
+            <div class="post-row">
+               <div class="activity-icons">
+                   <div><img src="C:\Users\teja\Downloads\socialbook_img\like-blue.png">125</div>
+                   <div><img src="C:\Users\teja\Downloads\socialbook_img\comments.png">45</div>
+                   <div><img src="C:\Users\teja\Downloads\socialbook_img\share.png">20</div>
+               </div>
+               </div>
+           
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+               <div class="user-profile">
+                   <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+                    <div>
+                      <p>Teja Gopalapurapu</p>
+                      <span>Nov 17 2021, 11:50pm</span>
+                    
+   
+                    </div>
+               </div>
+               <a herf="#"><i class="fas fa-ellipsis-v"></i></a>
+               </div><br>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <img src="C:\Users\teja\Downloads\socialbook_img\feed-image-3.png" class="post-image">
+               <div class="post-row">
+                  <div class="activity-icons">
+                      <div><img src="C:\Users\teja\Downloads\socialbook_img\like-blue.png">105</div>
+                      <div><img src="C:\Users\teja\Downloads\socialbook_img\comments.png">40</div>
+                      <div><img src="C:\Users\teja\Downloads\socialbook_img\share.png">10</div>
+                  </div>
+                  </div>
+              
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+               <div class="user-profile">
+                   <img src="C:\Users\teja\Downloads\socialbook_img\profile-pic.png">    
+                    <div>
+                      <p>Teja Gopalapurapu</p>
+                      <span>Nov 20 2021, 10:50am</span>
+                    
+   
+                    </div>
+               </div>
+               <a herf="#"><i class="fas fa-ellipsis-v"></i></a>
+               </div><br>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <img src="C:\Users\teja\Downloads\socialbook_img\feed-image-1.png" class="post-image">
+               <div class="post-row">
+                  <div class="activity-icons">
+                      <div><img src="C:\Users\teja\Downloads\socialbook_img\like-blue.png">95</div>
+                      <div><img src="C:\Users\teja\Downloads\socialbook_img\comments.png">30</div>
+                      <div><img src="C:\Users\teja\Downloads\socialbook_img\share.png">12</div>
+                  </div>
+                  </div>
+              
+           </div>
+           <button type="button" class="load-more-btn">Load More</button>
+        </div>
+        <!------------right-sidebar------------->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">SeeAll</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Anniversary</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Bhanu gudi jn</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Birthday</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Sarpavaram jn</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+        
+        
+            <div class="sidebar-title">
+                <h4>Advertisements</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="C:\Users\teja\Downloads\socialbook_img\advertisement.png" class="sidebar-ads">
+        
+        
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="C:\Users\teja\Downloads\socialbook_img\member-1.png">
+                </div>
+                <p>Alisa Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="C:\Users\teja\Downloads\socialbook_img\member-2.png">
+                </div>
+                <p>John</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="C:\Users\teja\Downloads\socialbook_img\member-3.png">
+                </div>
+                <p>Barbie Queen</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+    </html>
+   
